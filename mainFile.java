@@ -26,7 +26,7 @@ public class mainFile{
                 //if line is not empty
                 if (!line.isEmpty()){
                     //Split string with delimineters
-                    String[] splitString = line.trim().split("[.,!?'\\s+]");
+                    String[] splitString = line.trim().split("[;().,!?'\\s+]");
                     //for loop for the hashmap
                     for(int i = 0; i < splitString.length; i++){
                         //value for hashmap
@@ -62,7 +62,7 @@ public class mainFile{
             for(Object key : keys){
                 //if the key is not null and value is not an empty string
                 if (key != null && !map.get(key).value.equals("")){
-                    //print 
+                    //print
                    tableWriter.println(map.get(key).toString());
                    System.out.println(map.get(key).toString());
                 }
