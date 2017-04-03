@@ -1,0 +1,8 @@
+Hello hello hello hello hello hello hello but but but but but but but don’t don’t don’t don’t don’t, no way, no way, NO way based based based, hello, hello, hello, but, but, don’t don’t;
+This is a test file,
+There should be 11 hello (including this one);
+There should be 10 but (including this one);
+There should be 8 don’t (including this one);
+There should be 4 no (including this one);
+There should be 4 way (including this one);
+There should be 4 based (including this one);
